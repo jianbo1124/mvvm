@@ -7,4 +7,6 @@
 使用mmkv替代SharedPreferences 
 # 应用截图
  ![image](https://github.com/jianbo1124/mvvm/blob/main/image/Screenshot_1612076814.png)
-  ![image](https://github.com/jianbo1124/mvvm/blob/main/image/Screenshot_1612076836.png)
+ 
+
+ ![image](https://github.com/jianbo1124/mvvm/blob/main/image/Screenshot_1612076836.png)
