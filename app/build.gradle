@@ -34,6 +34,17 @@ android {
     buildFeatures {
         dataBinding = true
     }
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+
+            def SEP = "_"
+            def buildType = variant.buildType.name
+            def versionCode = variant.mergedFlavor.versionName
+            def date = new Date()
+            def formattedDate = date.format('yyyyMMdd_HHmm')
+            outputFileName = "${applicationId}${SEP}${versionCode}${SEP}${buildType}${SEP}${formattedDate}.apk"
+        }
+    }
 }
 
 dependencies {
